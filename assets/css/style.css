@@ -6,6 +6,7 @@
   --color-secondary: #ff1900;
   --color-white: #ffffff;
   --color-dark: rgb(8, 8, 9);
+  --color-dark-second: rgb(45, 45, 47);
   --color-dark-variant: rgba(44, 44, 44, 0.323);
 
   --color-gradiant: linear-gradient(90deg, rgba(17, 16, 29) 0%, #00bb2f 24%);
@@ -1090,6 +1091,8 @@ footer {
   justify-content: center;
   color: var(--color-white);
   margin-top: 6rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
 }
 
 .footer_container .footer_details {
